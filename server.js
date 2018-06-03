@@ -7,7 +7,6 @@ const app = express();
 // DB config
 const db = require('./config/key').mongoURI;
 
-
 //connect to MOngoDB
 mongoose.connect(db)
 .then(()=>console.log("MongoDB connected"))
